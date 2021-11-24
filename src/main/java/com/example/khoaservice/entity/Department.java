@@ -13,7 +13,7 @@ import javax.persistence.Id;
 @AllArgsConstructor
 @Entity
 public class Department {
-    @javax.persistence.Id
+    @Id
     @GeneratedValue
     private Long Id;
     private String deparmentName;
